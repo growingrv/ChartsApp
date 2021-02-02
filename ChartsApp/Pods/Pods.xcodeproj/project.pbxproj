@@ -1,0 +1,1295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DF3D770619638A8D181691F9DBA181 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E474D03A19B2FE418EE9E4E6CB165380 /* CircularView.swift */; };
+		1445D99945206BBF800F55F8AA59EA36 /* UserScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432023B35CF2B83B04D2F0B2D5E4A990 /* UserScoreViewController.xib */; };
+		154BEC62E1F291970137D8A3FB5B3B70 /* ChartsLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19152ADE56B227592FC6391DE94D79C /* ChartsLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1571631054D61C161F8A98C8A649245D /* BenchmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C05EB0C145B05D1100231AEF4349E /* BenchmarkViewModel.swift */; };
+		15A434F5A2E8F020D64A8D45E3665299 /* UserScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02F87CA00BB34821CF9071C4C95550 /* UserScoreViewModel.swift */; };
+		16BFDC70A1A2C8CE8C3FFC3B0AA046BE /* Pods-ChartsAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D46725651DD539F0F7AE4B3651ED48 /* Pods-ChartsAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A876528EDBBF22297F87BE3397538B7 /* Pods-ChartsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15278359895625BF4A569CF66350EDB8 /* Pods-ChartsAppTests-dummy.m */; };
+		23C89404C995478AF900C0BF1D197585 /* DataUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC843F2CBE8617B784CA86B9D220469 /* DataUpdating.swift */; };
+		2CB9A77CF6EA7B68D0AA0A0D97DBF4D8 /* BenchmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B089EDC45DF41CFD59410CD6F884029F /* BenchmarkViewController.xib */; };
+		395CB8FE77F0A14985CB71A0832B8C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		434628CA4878B65C6A502857B58961DF /* Pods-ChartsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E62C1A08000722D1DE7EB2F76FFF98C5 /* Pods-ChartsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AC40395ABDE26D050F0C9039CDCED6B /* ChartsLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C857FACB8D54069E2B3C69D57F2138 /* ChartsLib-dummy.m */; };
+		4CBFF4813A7F84DAB4E274CE59C9E3DF /* Pods-ChartsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6352E0449CDB45E02591A1F046C4C4 /* Pods-ChartsApp-dummy.m */; };
+		4F9E2D24AB51C02257706EDBC0E67DDB /* AppCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3712618F284E0368B606EC1A1A3255 /* AppCache.swift */; };
+		5262F7F7A2959BA92FA677609BE31391 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14A945D848A98F26B7CF13075485D5 /* UIColorExtensions.swift */; };
+		536B57DB65613EDD99C7B695602B0F37 /* LocalServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2A6EFE2A10F0258EAEB5FFAA796B5 /* LocalServiceAPI.swift */; };
+		57618A2C5E21EBBDECC9F0A22C4599F2 /* BenchmarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE00CF5ED32EC4CF93E236F1FE6C050C /* BenchmarkTableViewCell.xib */; };
+		5B535C4A3699667F85865635FCEFC1F9 /* Pods-ChartsApp-ChartsAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CED1EE049D730458AE63BDBECD0E1C /* Pods-ChartsApp-ChartsAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6270292ABDBCFE9A269DE29FBC5E3603 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869442A7CDC4B945254E3BE9128EC7CE /* UIViewControllerExtensions.swift */; };
+		63C59FC0706FD61613EEFF185ADB28F0 /* UserScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432023B35CF2B83B04D2F0B2D5E4A990 /* UserScoreViewController.xib */; };
+		65976F0A508891E4BE5F7BDDAC2EA586 /* BenchmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B089EDC45DF41CFD59410CD6F884029F /* BenchmarkViewController.xib */; };
+		662E025CBB38C0E87CBEAD6E1A6D5C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		68368EDAA845AA837F4434B183942615 /* UserScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB20528BB55D64564563977279851F /* UserScoreViewController.swift */; };
+		73D467A1D227A2659910914E9F0ED48B /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020E6FFE71AEB9CF662694D64E51785B /* CGFloatExtensions.swift */; };
+		7825648706257671D15B0FB670C70E0E /* BenchmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CF7069C122136A2ACE4079708D6F0 /* BenchmarkViewController.swift */; };
+		7AF18432112FE3B0AF60B458EBBACA05 /* ChartsLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2BFACA2A8D837268C48B2081D37FCC04 /* ChartsLib.bundle */; };
+		914CF5D9C0EE5B852FABBD469AAD4E10 /* UserScoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A48A733F82B504A1F6B8FDDF0538EF /* UserScoreInfo.swift */; };
+		9E8125B3C1106783BAB285E7B9252ACD /* BenchmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F2B49B32E644823D380E1A0B18B443 /* BenchmarkList.swift */; };
+		A2564DB4DDA280015FAB11A099560223 /* BenchmarkTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BBE9C5A393690B51C0ADF9C2B8F393 /* BenchmarkTableViewDataSource.swift */; };
+		B804BA4C2481B54FD716D1A4602CA732 /* BenchmarksConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB090E2A70B1209B567FB0FC9DC25B87 /* BenchmarksConfiguration.swift */; };
+		C20206F8619B6AAB703B998ABAC2C837 /* Pods-ChartsApp-ChartsAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8393F05E94303B09ED045A9AB00AA00 /* Pods-ChartsApp-ChartsAppUITests-dummy.m */; };
+		C451D12DB007777CE47DD7C9CD51C93A /* BenchmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01821BEDF16C04EA23A194FC89A25F63 /* BenchmarkTableViewCell.swift */; };
+		C52E4DB6D31A85B3C7858B3980BD33B2 /* BenchmarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE00CF5ED32EC4CF93E236F1FE6C050C /* BenchmarkTableViewCell.xib */; };
+		D4B158FF3D202285E7F94834618A11BB /* NSDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2D3CAF3257A724C4AF1CC799274E /* NSDateExtensions.swift */; };
+		D6696CA98D2FDBD28EAE599804B5414C /* UserScoreConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CAB4B0662565AE34C55D0D24AEB0B /* UserScoreConfiguration.swift */; };
+		DD547A0D40AAD3BD56DE671CB407B534 /* UserScoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC418EC955F4DD9BAB4EEDB22C2BCABD /* UserScoreCoordinator.swift */; };
+		DD993FD1B3EFAC3BC0F84D2C51DFFB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E07A8D6753D16F2A1600B714331ECAC7 /* BenchmarksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E33F3DBE8AF6F55B661D828AFAA83 /* BenchmarksCoordinator.swift */; };
+		E44F32A94AB5E6BFD0C089E62FCE0F5F /* ThreadExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C44BF9E52FA571FBA2704080F38AAD /* ThreadExtensions.swift */; };
+		E840232369CBEDBA9CA25D72A6E99C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E865B52720DB1C8FA98C17FF1A73B77A /* BenchmarkTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C89D8CA325BDD2E0DA122CB650FBB8 /* BenchmarkTableViewModel.swift */; };
+		FE736A8EF47431EFE81E6E2B22702390 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0EDE593147DFF0B41B939BF9475AFF /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0114163B03E3FFC87CBAEEAB855656D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B162C9E6F5B4858157EE3558225BCE3E;
+			remoteInfo = ChartsLib;
+		};
+		396DD7D59BA8483BBE356B5B53EBE499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B162C9E6F5B4858157EE3558225BCE3E;
+			remoteInfo = ChartsLib;
+		};
+		3D2433D1FC4638EBC72A9F15E235438A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65246B5F9B992A5925028F581036AA6C;
+			remoteInfo = "Pods-ChartsApp";
+		};
+		BC3A3249EFF383AA4B67D223CB845A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B537A384E32C47E9F5AA3A3305E98609;
+			remoteInfo = "ChartsLib-ChartsLib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01821BEDF16C04EA23A194FC89A25F63 /* BenchmarkTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarkTableViewCell.swift; sourceTree = "<group>"; };
+		020E6FFE71AEB9CF662694D64E51785B /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
+		0A14A945D848A98F26B7CF13075485D5 /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		0C0EDE593147DFF0B41B939BF9475AFF /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0E8D3C6942913DD1C8A11B128325F21F /* ChartsLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChartsLib.framework; path = ChartsLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2CAB4B0662565AE34C55D0D24AEB0B /* UserScoreConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserScoreConfiguration.swift; sourceTree = "<group>"; };
+		11C33699220CA1E7695FF5F05E5363C6 /* Pods_ChartsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChartsAppTests.framework; path = "Pods-ChartsAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1297CEBBCFDADF517FF9A2DC116369D4 /* ChartsLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChartsLib-Info.plist"; sourceTree = "<group>"; };
+		12C7497CB203ADC2F88742A63207A272 /* Pods-ChartsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		15278359895625BF4A569CF66350EDB8 /* Pods-ChartsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChartsAppTests-dummy.m"; sourceTree = "<group>"; };
+		1621F0DEA05CE37D97371200F299A273 /* Pods-ChartsApp-ChartsAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChartsApp-ChartsAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		19C857FACB8D54069E2B3C69D57F2138 /* ChartsLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChartsLib-dummy.m"; sourceTree = "<group>"; };
+		1E226230B0320C145B65FFCDCE37DDE1 /* Pods-ChartsApp-ChartsAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartsApp-ChartsAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27BB848749B75EFEA5772832CEA9E95C /* ChartsLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChartsLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2BFACA2A8D837268C48B2081D37FCC04 /* ChartsLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ChartsLib.bundle; path = "ChartsLib-ChartsLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C91894AF34075F3E0E93CF12D2CF6CD /* Pods-ChartsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		337512F1D7BC1D80036B27AEC2E433AE /* Pods-ChartsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChartsApp.modulemap"; sourceTree = "<group>"; };
+		3E9CF7069C122136A2ACE4079708D6F0 /* BenchmarkViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarkViewController.swift; sourceTree = "<group>"; };
+		432023B35CF2B83B04D2F0B2D5E4A990 /* UserScoreViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UserScoreViewController.xib; path = ChartsLib/Resources/UserScoreViewController.xib; sourceTree = "<group>"; };
+		44C44BF9E52FA571FBA2704080F38AAD /* ThreadExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThreadExtensions.swift; sourceTree = "<group>"; };
+		456D8B9725BFD4451585CEEBB856EB17 /* Pods-ChartsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		507CF884E7312100BDE827B17352EC76 /* Pods_ChartsApp_ChartsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChartsApp_ChartsAppUITests.framework; path = "Pods-ChartsApp-ChartsAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F2B49B32E644823D380E1A0B18B443 /* BenchmarkList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarkList.swift; sourceTree = "<group>"; };
+		5F6352E0449CDB45E02591A1F046C4C4 /* Pods-ChartsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChartsApp-dummy.m"; sourceTree = "<group>"; };
+		62DFAC4B52DB0CF2333E538ECA012E05 /* ResourceBundle-ChartsLib-ChartsLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ChartsLib-ChartsLib-Info.plist"; sourceTree = "<group>"; };
+		64B8F84207F64AAC6FB198A1C9FB81A9 /* ChartsLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChartsLib.release.xcconfig; sourceTree = "<group>"; };
+		6530776A17D2CEAC8FC7401F0EA8745E /* Pods-ChartsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartsAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66A48A733F82B504A1F6B8FDDF0538EF /* UserScoreInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserScoreInfo.swift; sourceTree = "<group>"; };
+		6B2E33F3DBE8AF6F55B661D828AFAA83 /* BenchmarksCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarksCoordinator.swift; sourceTree = "<group>"; };
+		6C35CA71411923485F85D1E954639374 /* Pods_ChartsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChartsApp.framework; path = "Pods-ChartsApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75622A0EE0B05DC4C154224CE9245D37 /* Pods-ChartsAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartsAppTests-Info.plist"; sourceTree = "<group>"; };
+		78CED1EE049D730458AE63BDBECD0E1C /* Pods-ChartsApp-ChartsAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChartsApp-ChartsAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		869442A7CDC4B945254E3BE9128EC7CE /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		8DF5E5E88A9B529647768DEF534D7A18 /* Pods-ChartsAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChartsAppTests.modulemap"; sourceTree = "<group>"; };
+		8E2C05EB0C145B05D1100231AEF4349E /* BenchmarkViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarkViewModel.swift; sourceTree = "<group>"; };
+		8EC843F2CBE8617B784CA86B9D220469 /* DataUpdating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataUpdating.swift; sourceTree = "<group>"; };
+		9019134C202DF6BA4D47C1A4A113E346 /* Pods-ChartsApp-ChartsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartsApp-ChartsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90B8966D231CF82427156BA099736A1C /* Pods-ChartsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChartsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B089EDC45DF41CFD59410CD6F884029F /* BenchmarkViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BenchmarkViewController.xib; path = ChartsLib/Resources/BenchmarkViewController.xib; sourceTree = "<group>"; };
+		B1FE10FB6189D7D9D2F9DC61AFBC124A /* Pods-ChartsApp-ChartsAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartsApp-ChartsAppUITests-Info.plist"; sourceTree = "<group>"; };
+		B4AB20528BB55D64564563977279851F /* UserScoreViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserScoreViewController.swift; sourceTree = "<group>"; };
+		BB090E2A70B1209B567FB0FC9DC25B87 /* BenchmarksConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarksConfiguration.swift; sourceTree = "<group>"; };
+		BBFDE9A00AF89928849AA81052A1A1AA /* Pods-ChartsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartsApp.release.xcconfig"; sourceTree = "<group>"; };
+		BC418EC955F4DD9BAB4EEDB22C2BCABD /* UserScoreCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserScoreCoordinator.swift; sourceTree = "<group>"; };
+		BFD2A6EFE2A10F0258EAEB5FFAA796B5 /* LocalServiceAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalServiceAPI.swift; sourceTree = "<group>"; };
+		C7D46725651DD539F0F7AE4B3651ED48 /* Pods-ChartsAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChartsAppTests-umbrella.h"; sourceTree = "<group>"; };
+		CC16131DE98AD16E31E33E07A56E4918 /* Pods-ChartsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCC5C7936FD4683B4D6959AED1FFCB05 /* Pods-ChartsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChartsAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D19152ADE56B227592FC6391DE94D79C /* ChartsLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChartsLib-umbrella.h"; sourceTree = "<group>"; };
+		D1C415640CDDC8E3BA68D49E7A6EA223 /* Pods-ChartsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChartsApp-frameworks.sh"; sourceTree = "<group>"; };
+		D21C4F806463E3F19AFF96F865F1055C /* Pods-ChartsApp-ChartsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartsApp-ChartsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D478E5ACF264E45BB405D76A7B53D97F /* ChartsLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChartsLib-prefix.pch"; sourceTree = "<group>"; };
+		D8393F05E94303B09ED045A9AB00AA00 /* Pods-ChartsApp-ChartsAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChartsApp-ChartsAppUITests-dummy.m"; sourceTree = "<group>"; };
+		D98AFD167E1F4F282BB4438637E815C3 /* ChartsLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChartsLib.debug.xcconfig; sourceTree = "<group>"; };
+		DE00CF5ED32EC4CF93E236F1FE6C050C /* BenchmarkTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BenchmarkTableViewCell.xib; path = ChartsLib/Resources/BenchmarkTableViewCell.xib; sourceTree = "<group>"; };
+		E3C89D8CA325BDD2E0DA122CB650FBB8 /* BenchmarkTableViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarkTableViewModel.swift; sourceTree = "<group>"; };
+		E474D03A19B2FE418EE9E4E6CB165380 /* CircularView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		E62C1A08000722D1DE7EB2F76FFF98C5 /* Pods-ChartsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChartsApp-umbrella.h"; sourceTree = "<group>"; };
+		E6BBE9C5A393690B51C0ADF9C2B8F393 /* BenchmarkTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BenchmarkTableViewDataSource.swift; sourceTree = "<group>"; };
+		ECC777A0A2E1BE4698EF1DA034128BB4 /* Pods-ChartsApp-ChartsAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChartsApp-ChartsAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE3712618F284E0368B606EC1A1A3255 /* AppCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppCache.swift; sourceTree = "<group>"; };
+		EF02F87CA00BB34821CF9071C4C95550 /* UserScoreViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserScoreViewModel.swift; sourceTree = "<group>"; };
+		F5938A014D1EBAC5103FF1F04D520462 /* Pods-ChartsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartsApp-Info.plist"; sourceTree = "<group>"; };
+		F628829478D98B8F1E657BCA0AE6CB56 /* ChartsLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChartsLib.modulemap; sourceTree = "<group>"; };
+		F7D95595772654E6871C73736FD546E5 /* Pods-ChartsApp-ChartsAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChartsApp-ChartsAppUITests.modulemap"; sourceTree = "<group>"; };
+		FF6B2D3CAF3257A724C4AF1CC799274E /* NSDateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSDateExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		352635AE5AD0782B328B6241D6369B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662E025CBB38C0E87CBEAD6E1A6D5C1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A82CD2ED2117CBD2C968CC2DBF23F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EE7E5C40EE41485CDF389D221B23B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395CB8FE77F0A14985CB71A0832B8C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A528C44916FD038F7E5EED9D0395C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD993FD1B3EFAC3BC0F84D2C51DFFB34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D5E46E9465CA8C7C0254ECF1E1F8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E840232369CBEDBA9CA25D72A6E99C18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF546FEB29003FE8865C11389E85BA5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2A6EFE2A10F0258EAEB5FFAA796B5 /* LocalServiceAPI.swift */,
+			);
+			name = Service;
+			path = ChartsLib/Service;
+			sourceTree = "<group>";
+		};
+		10102C01A2F6C402D4B62BBB0C6D0DEF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EE3712618F284E0368B606EC1A1A3255 /* AppCache.swift */,
+				0C0EDE593147DFF0B41B939BF9475AFF /* Utils.swift */,
+			);
+			name = Utilities;
+			path = ChartsLib/Utilities;
+			sourceTree = "<group>";
+		};
+		3B2DBB9F27CB344D03DB3507312BFF9E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				01821BEDF16C04EA23A194FC89A25F63 /* BenchmarkTableViewCell.swift */,
+				E3C89D8CA325BDD2E0DA122CB650FBB8 /* BenchmarkTableViewModel.swift */,
+			);
+			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4AC20383C9DCC01FF56269D6CC9FC32E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8EC843F2CBE8617B784CA86B9D220469 /* DataUpdating.swift */,
+			);
+			name = Protocols;
+			path = ChartsLib/Protocols;
+			sourceTree = "<group>";
+		};
+		60698DAE3185B48D30D91541B07F9775 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CB1758248862950D39184D8E00412C3B /* Benchmark */,
+				F89C261ADAF727AB74DD119B8F828696 /* UserScore */,
+			);
+			name = Features;
+			path = ChartsLib/Features;
+			sourceTree = "<group>";
+		};
+		6416EF066FDA9A1B49E064B0BE821914 /* Pods-ChartsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DF5E5E88A9B529647768DEF534D7A18 /* Pods-ChartsAppTests.modulemap */,
+				CCC5C7936FD4683B4D6959AED1FFCB05 /* Pods-ChartsAppTests-acknowledgements.markdown */,
+				6530776A17D2CEAC8FC7401F0EA8745E /* Pods-ChartsAppTests-acknowledgements.plist */,
+				15278359895625BF4A569CF66350EDB8 /* Pods-ChartsAppTests-dummy.m */,
+				75622A0EE0B05DC4C154224CE9245D37 /* Pods-ChartsAppTests-Info.plist */,
+				C7D46725651DD539F0F7AE4B3651ED48 /* Pods-ChartsAppTests-umbrella.h */,
+				2C91894AF34075F3E0E93CF12D2CF6CD /* Pods-ChartsAppTests.debug.xcconfig */,
+				456D8B9725BFD4451585CEEBB856EB17 /* Pods-ChartsAppTests.release.xcconfig */,
+			);
+			name = "Pods-ChartsAppTests";
+			path = "Target Support Files/Pods-ChartsAppTests";
+			sourceTree = "<group>";
+		};
+		70C00EE2F7A374246AE39BA9608368E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				27BB848749B75EFEA5772832CEA9E95C /* ChartsLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		902D784E7DAA924505F69ADD87874559 /* ChartsLib */ = {
+			isa = PBXGroup;
+			children = (
+				F52B88E86278E4A9FA267D047A2F4026 /* DataModels */,
+				C9A23AF4FA4173339980A690E93BEAEA /* Extensions */,
+				60698DAE3185B48D30D91541B07F9775 /* Features */,
+				70C00EE2F7A374246AE39BA9608368E0 /* Pod */,
+				4AC20383C9DCC01FF56269D6CC9FC32E /* Protocols */,
+				E756CE662A5341E79E51682286752D35 /* Resources */,
+				0CF546FEB29003FE8865C11389E85BA5 /* Service */,
+				A09FC10216E6E3260CE177771AD23473 /* Support Files */,
+				10102C01A2F6C402D4B62BBB0C6D0DEF /* Utilities */,
+				EA2D912EB88C8AECE1C3CF70DC4143EE /* Views */,
+			);
+			name = ChartsLib;
+			path = ../../ChartsLib;
+			sourceTree = "<group>";
+		};
+		A09FC10216E6E3260CE177771AD23473 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F628829478D98B8F1E657BCA0AE6CB56 /* ChartsLib.modulemap */,
+				19C857FACB8D54069E2B3C69D57F2138 /* ChartsLib-dummy.m */,
+				1297CEBBCFDADF517FF9A2DC116369D4 /* ChartsLib-Info.plist */,
+				D478E5ACF264E45BB405D76A7B53D97F /* ChartsLib-prefix.pch */,
+				D19152ADE56B227592FC6391DE94D79C /* ChartsLib-umbrella.h */,
+				D98AFD167E1F4F282BB4438637E815C3 /* ChartsLib.debug.xcconfig */,
+				64B8F84207F64AAC6FB198A1C9FB81A9 /* ChartsLib.release.xcconfig */,
+				62DFAC4B52DB0CF2333E538ECA012E05 /* ResourceBundle-ChartsLib-ChartsLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../ChartsApp/Pods/Target Support Files/ChartsLib";
+			sourceTree = "<group>";
+		};
+		AF6CF161CA75D1549E83BCACB458CDB2 /* Pods-ChartsApp */ = {
+			isa = PBXGroup;
+			children = (
+				337512F1D7BC1D80036B27AEC2E433AE /* Pods-ChartsApp.modulemap */,
+				90B8966D231CF82427156BA099736A1C /* Pods-ChartsApp-acknowledgements.markdown */,
+				CC16131DE98AD16E31E33E07A56E4918 /* Pods-ChartsApp-acknowledgements.plist */,
+				5F6352E0449CDB45E02591A1F046C4C4 /* Pods-ChartsApp-dummy.m */,
+				D1C415640CDDC8E3BA68D49E7A6EA223 /* Pods-ChartsApp-frameworks.sh */,
+				F5938A014D1EBAC5103FF1F04D520462 /* Pods-ChartsApp-Info.plist */,
+				E62C1A08000722D1DE7EB2F76FFF98C5 /* Pods-ChartsApp-umbrella.h */,
+				12C7497CB203ADC2F88742A63207A272 /* Pods-ChartsApp.debug.xcconfig */,
+				BBFDE9A00AF89928849AA81052A1A1AA /* Pods-ChartsApp.release.xcconfig */,
+			);
+			name = "Pods-ChartsApp";
+			path = "Target Support Files/Pods-ChartsApp";
+			sourceTree = "<group>";
+		};
+		B7E3D40802B9E9B62AA4A4710510277C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6CF161CA75D1549E83BCACB458CDB2 /* Pods-ChartsApp */,
+				D15871A764E57995F0704C701C30DBDF /* Pods-ChartsApp-ChartsAppUITests */,
+				6416EF066FDA9A1B49E064B0BE821914 /* Pods-ChartsAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE7A37F5210DC0B44FAF6E061BDF1D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BFACA2A8D837268C48B2081D37FCC04 /* ChartsLib.bundle */,
+				0E8D3C6942913DD1C8A11B128325F21F /* ChartsLib.framework */,
+				6C35CA71411923485F85D1E954639374 /* Pods_ChartsApp.framework */,
+				507CF884E7312100BDE827B17352EC76 /* Pods_ChartsApp_ChartsAppUITests.framework */,
+				11C33699220CA1E7695FF5F05E5363C6 /* Pods_ChartsAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9A23AF4FA4173339980A690E93BEAEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				020E6FFE71AEB9CF662694D64E51785B /* CGFloatExtensions.swift */,
+				FF6B2D3CAF3257A724C4AF1CC799274E /* NSDateExtensions.swift */,
+				44C44BF9E52FA571FBA2704080F38AAD /* ThreadExtensions.swift */,
+				0A14A945D848A98F26B7CF13075485D5 /* UIColorExtensions.swift */,
+				869442A7CDC4B945254E3BE9128EC7CE /* UIViewControllerExtensions.swift */,
+			);
+			name = Extensions;
+			path = ChartsLib/Extensions;
+			sourceTree = "<group>";
+		};
+		CB1758248862950D39184D8E00412C3B /* Benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				BB090E2A70B1209B567FB0FC9DC25B87 /* BenchmarksConfiguration.swift */,
+				6B2E33F3DBE8AF6F55B661D828AFAA83 /* BenchmarksCoordinator.swift */,
+				3E9CF7069C122136A2ACE4079708D6F0 /* BenchmarkViewController.swift */,
+				8E2C05EB0C145B05D1100231AEF4349E /* BenchmarkViewModel.swift */,
+				E3779F3D52569BF444E18DAE3BF678FE /* TableView */,
+			);
+			name = Benchmark;
+			path = Benchmark;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E9481F97244D66821D44807E93A1DDBD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE7A37F5210DC0B44FAF6E061BDF1D61 /* Products */,
+				B7E3D40802B9E9B62AA4A4710510277C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D15871A764E57995F0704C701C30DBDF /* Pods-ChartsApp-ChartsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D95595772654E6871C73736FD546E5 /* Pods-ChartsApp-ChartsAppUITests.modulemap */,
+				ECC777A0A2E1BE4698EF1DA034128BB4 /* Pods-ChartsApp-ChartsAppUITests-acknowledgements.markdown */,
+				1E226230B0320C145B65FFCDCE37DDE1 /* Pods-ChartsApp-ChartsAppUITests-acknowledgements.plist */,
+				D8393F05E94303B09ED045A9AB00AA00 /* Pods-ChartsApp-ChartsAppUITests-dummy.m */,
+				1621F0DEA05CE37D97371200F299A273 /* Pods-ChartsApp-ChartsAppUITests-frameworks.sh */,
+				B1FE10FB6189D7D9D2F9DC61AFBC124A /* Pods-ChartsApp-ChartsAppUITests-Info.plist */,
+				78CED1EE049D730458AE63BDBECD0E1C /* Pods-ChartsApp-ChartsAppUITests-umbrella.h */,
+				D21C4F806463E3F19AFF96F865F1055C /* Pods-ChartsApp-ChartsAppUITests.debug.xcconfig */,
+				9019134C202DF6BA4D47C1A4A113E346 /* Pods-ChartsApp-ChartsAppUITests.release.xcconfig */,
+			);
+			name = "Pods-ChartsApp-ChartsAppUITests";
+			path = "Target Support Files/Pods-ChartsApp-ChartsAppUITests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3779F3D52569BF444E18DAE3BF678FE /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E6BBE9C5A393690B51C0ADF9C2B8F393 /* BenchmarkTableViewDataSource.swift */,
+				3B2DBB9F27CB344D03DB3507312BFF9E /* Cell */,
+			);
+			name = TableView;
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		E756CE662A5341E79E51682286752D35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE00CF5ED32EC4CF93E236F1FE6C050C /* BenchmarkTableViewCell.xib */,
+				B089EDC45DF41CFD59410CD6F884029F /* BenchmarkViewController.xib */,
+				432023B35CF2B83B04D2F0B2D5E4A990 /* UserScoreViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9481F97244D66821D44807E93A1DDBD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902D784E7DAA924505F69ADD87874559 /* ChartsLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA2D912EB88C8AECE1C3CF70DC4143EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E474D03A19B2FE418EE9E4E6CB165380 /* CircularView.swift */,
+			);
+			name = Views;
+			path = ChartsLib/Views;
+			sourceTree = "<group>";
+		};
+		F52B88E86278E4A9FA267D047A2F4026 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				59F2B49B32E644823D380E1A0B18B443 /* BenchmarkList.swift */,
+				66A48A733F82B504A1F6B8FDDF0538EF /* UserScoreInfo.swift */,
+			);
+			name = DataModels;
+			path = ChartsLib/DataModels;
+			sourceTree = "<group>";
+		};
+		F89C261ADAF727AB74DD119B8F828696 /* UserScore */ = {
+			isa = PBXGroup;
+			children = (
+				0F2CAB4B0662565AE34C55D0D24AEB0B /* UserScoreConfiguration.swift */,
+				BC418EC955F4DD9BAB4EEDB22C2BCABD /* UserScoreCoordinator.swift */,
+				B4AB20528BB55D64564563977279851F /* UserScoreViewController.swift */,
+				EF02F87CA00BB34821CF9071C4C95550 /* UserScoreViewModel.swift */,
+			);
+			name = UserScore;
+			path = UserScore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A67A460AD4FBFE2A500F6245E049F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434628CA4878B65C6A502857B58961DF /* Pods-ChartsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD81D22D4520D81849DE01351D053D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B535C4A3699667F85865635FCEFC1F9 /* Pods-ChartsApp-ChartsAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841AD50FEB65C2C0386B30FD0DBC2A69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154BEC62E1F291970137D8A3FB5B3B70 /* ChartsLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34B35DEA3F7C5C5022FCFBD582249EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BFDC70A1A2C8CE8C3FFC3B0AA046BE /* Pods-ChartsAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65246B5F9B992A5925028F581036AA6C /* Pods-ChartsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D5741BC6C0DEBC5EB0FB45A8DCF322 /* Build configuration list for PBXNativeTarget "Pods-ChartsApp" */;
+			buildPhases = (
+				0A67A460AD4FBFE2A500F6245E049F30 /* Headers */,
+				AF848EC7DC5D4ECCD5AB76962AE714C5 /* Sources */,
+				A5A528C44916FD038F7E5EED9D0395C1 /* Frameworks */,
+				7E24CD4128E16DF106D17348DB4F7F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5298F42E3D005E9C62BF7CFE075C523B /* PBXTargetDependency */,
+			);
+			name = "Pods-ChartsApp";
+			productName = "Pods-ChartsApp";
+			productReference = 6C35CA71411923485F85D1E954639374 /* Pods_ChartsApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90CBA0CBBDEE9461F012E082D12434E6 /* Pods-ChartsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDFDB0024D3D84958C3DF95D8760A8E /* Build configuration list for PBXNativeTarget "Pods-ChartsAppTests" */;
+			buildPhases = (
+				B34B35DEA3F7C5C5022FCFBD582249EF /* Headers */,
+				9A7E8099DD5458633F26B8289B248A05 /* Sources */,
+				F5D5E46E9465CA8C7C0254ECF1E1F8BD /* Frameworks */,
+				CB4D7F73403AB391E62235197E81C229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBE27758707D211EE75A254F4EAAAE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChartsAppTests";
+			productName = "Pods-ChartsAppTests";
+			productReference = 11C33699220CA1E7695FF5F05E5363C6 /* Pods_ChartsAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B162C9E6F5B4858157EE3558225BCE3E /* ChartsLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E39C39CDC8071B05581898853AFDC9 /* Build configuration list for PBXNativeTarget "ChartsLib" */;
+			buildPhases = (
+				841AD50FEB65C2C0386B30FD0DBC2A69 /* Headers */,
+				A29D50006D7619C798397933C902DC08 /* Sources */,
+				74EE7E5C40EE41485CDF389D221B23B3 /* Frameworks */,
+				57A690CD776AF84483DE5E26D4A93CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52AA3CD247AC727C7167DBBD6A8B5C01 /* PBXTargetDependency */,
+			);
+			name = ChartsLib;
+			productName = ChartsLib;
+			productReference = 0E8D3C6942913DD1C8A11B128325F21F /* ChartsLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B537A384E32C47E9F5AA3A3305E98609 /* ChartsLib-ChartsLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1ACAFCB9836C0323FE98BD995825B0 /* Build configuration list for PBXNativeTarget "ChartsLib-ChartsLib" */;
+			buildPhases = (
+				6BA27E31C7D70FB9C7812D902F87E1B4 /* Sources */,
+				6A82CD2ED2117CBD2C968CC2DBF23F15 /* Frameworks */,
+				4C68BC19A6C9AC5020D8E090721290E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartsLib-ChartsLib";
+			productName = "ChartsLib-ChartsLib";
+			productReference = 2BFACA2A8D837268C48B2081D37FCC04 /* ChartsLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C327DA2EFFE09B84C94B87B257183D90 /* Pods-ChartsApp-ChartsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249169C51E115F97C59F061D04243571 /* Build configuration list for PBXNativeTarget "Pods-ChartsApp-ChartsAppUITests" */;
+			buildPhases = (
+				6FD81D22D4520D81849DE01351D053D8 /* Headers */,
+				5BEB4C21E6E80310B26CBEA5EE14B361 /* Sources */,
+				352635AE5AD0782B328B6241D6369B1C /* Frameworks */,
+				645CBF2670499D314E3F45ABEAD92374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C88004A8ABE08F8FB6B32AE991C156 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChartsApp-ChartsAppUITests";
+			productName = "Pods-ChartsApp-ChartsAppUITests";
+			productReference = 507CF884E7312100BDE827B17352EC76 /* Pods_ChartsApp_ChartsAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE7A37F5210DC0B44FAF6E061BDF1D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B162C9E6F5B4858157EE3558225BCE3E /* ChartsLib */,
+				B537A384E32C47E9F5AA3A3305E98609 /* ChartsLib-ChartsLib */,
+				65246B5F9B992A5925028F581036AA6C /* Pods-ChartsApp */,
+				C327DA2EFFE09B84C94B87B257183D90 /* Pods-ChartsApp-ChartsAppUITests */,
+				90CBA0CBBDEE9461F012E082D12434E6 /* Pods-ChartsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C68BC19A6C9AC5020D8E090721290E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52E4DB6D31A85B3C7858B3980BD33B2 /* BenchmarkTableViewCell.xib in Resources */,
+				2CB9A77CF6EA7B68D0AA0A0D97DBF4D8 /* BenchmarkViewController.xib in Resources */,
+				63C59FC0706FD61613EEFF185ADB28F0 /* UserScoreViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A690CD776AF84483DE5E26D4A93CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57618A2C5E21EBBDECC9F0A22C4599F2 /* BenchmarkTableViewCell.xib in Resources */,
+				65976F0A508891E4BE5F7BDDAC2EA586 /* BenchmarkViewController.xib in Resources */,
+				7AF18432112FE3B0AF60B458EBBACA05 /* ChartsLib.bundle in Resources */,
+				1445D99945206BBF800F55F8AA59EA36 /* UserScoreViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645CBF2670499D314E3F45ABEAD92374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E24CD4128E16DF106D17348DB4F7F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4D7F73403AB391E62235197E81C229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BEB4C21E6E80310B26CBEA5EE14B361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20206F8619B6AAB703B998ABAC2C837 /* Pods-ChartsApp-ChartsAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA27E31C7D70FB9C7812D902F87E1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7E8099DD5458633F26B8289B248A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A876528EDBBF22297F87BE3397538B7 /* Pods-ChartsAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29D50006D7619C798397933C902DC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9E2D24AB51C02257706EDBC0E67DDB /* AppCache.swift in Sources */,
+				9E8125B3C1106783BAB285E7B9252ACD /* BenchmarkList.swift in Sources */,
+				B804BA4C2481B54FD716D1A4602CA732 /* BenchmarksConfiguration.swift in Sources */,
+				E07A8D6753D16F2A1600B714331ECAC7 /* BenchmarksCoordinator.swift in Sources */,
+				C451D12DB007777CE47DD7C9CD51C93A /* BenchmarkTableViewCell.swift in Sources */,
+				A2564DB4DDA280015FAB11A099560223 /* BenchmarkTableViewDataSource.swift in Sources */,
+				E865B52720DB1C8FA98C17FF1A73B77A /* BenchmarkTableViewModel.swift in Sources */,
+				7825648706257671D15B0FB670C70E0E /* BenchmarkViewController.swift in Sources */,
+				1571631054D61C161F8A98C8A649245D /* BenchmarkViewModel.swift in Sources */,
+				73D467A1D227A2659910914E9F0ED48B /* CGFloatExtensions.swift in Sources */,
+				4AC40395ABDE26D050F0C9039CDCED6B /* ChartsLib-dummy.m in Sources */,
+				07DF3D770619638A8D181691F9DBA181 /* CircularView.swift in Sources */,
+				23C89404C995478AF900C0BF1D197585 /* DataUpdating.swift in Sources */,
+				536B57DB65613EDD99C7B695602B0F37 /* LocalServiceAPI.swift in Sources */,
+				D4B158FF3D202285E7F94834618A11BB /* NSDateExtensions.swift in Sources */,
+				E44F32A94AB5E6BFD0C089E62FCE0F5F /* ThreadExtensions.swift in Sources */,
+				5262F7F7A2959BA92FA677609BE31391 /* UIColorExtensions.swift in Sources */,
+				6270292ABDBCFE9A269DE29FBC5E3603 /* UIViewControllerExtensions.swift in Sources */,
+				D6696CA98D2FDBD28EAE599804B5414C /* UserScoreConfiguration.swift in Sources */,
+				DD547A0D40AAD3BD56DE671CB407B534 /* UserScoreCoordinator.swift in Sources */,
+				914CF5D9C0EE5B852FABBD469AAD4E10 /* UserScoreInfo.swift in Sources */,
+				68368EDAA845AA837F4434B183942615 /* UserScoreViewController.swift in Sources */,
+				15A434F5A2E8F020D64A8D45E3665299 /* UserScoreViewModel.swift in Sources */,
+				FE736A8EF47431EFE81E6E2B22702390 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF848EC7DC5D4ECCD5AB76962AE714C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBFF4813A7F84DAB4E274CE59C9E3DF /* Pods-ChartsApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29C88004A8ABE08F8FB6B32AE991C156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChartsLib;
+			target = B162C9E6F5B4858157EE3558225BCE3E /* ChartsLib */;
+			targetProxy = 396DD7D59BA8483BBE356B5B53EBE499 /* PBXContainerItemProxy */;
+		};
+		5298F42E3D005E9C62BF7CFE075C523B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChartsLib;
+			target = B162C9E6F5B4858157EE3558225BCE3E /* ChartsLib */;
+			targetProxy = 0114163B03E3FFC87CBAEEAB855656D8 /* PBXContainerItemProxy */;
+		};
+		52AA3CD247AC727C7167DBBD6A8B5C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ChartsLib-ChartsLib";
+			target = B537A384E32C47E9F5AA3A3305E98609 /* ChartsLib-ChartsLib */;
+			targetProxy = BC3A3249EFF383AA4B67D223CB845A0C /* PBXContainerItemProxy */;
+		};
+		8EBE27758707D211EE75A254F4EAAAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ChartsApp";
+			target = 65246B5F9B992A5925028F581036AA6C /* Pods-ChartsApp */;
+			targetProxy = 3D2433D1FC4638EBC72A9F15E235438A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12938ED97274EBFEFAC872D0D675E359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9019134C202DF6BA4D47C1A4A113E346 /* Pods-ChartsApp-ChartsAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartsApp-ChartsAppUITests/Pods-ChartsApp-ChartsAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartsApp-ChartsAppUITests/Pods-ChartsApp-ChartsAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13C4EA3E752DDB9C87D26ACC50093673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C7497CB203ADC2F88742A63207A272 /* Pods-ChartsApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartsApp/Pods-ChartsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartsApp/Pods-ChartsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7A58DE67D8B3F63640EA25F9B9DE3F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21C4F806463E3F19AFF96F865F1055C /* Pods-ChartsApp-ChartsAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartsApp-ChartsAppUITests/Pods-ChartsApp-ChartsAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartsApp-ChartsAppUITests/Pods-ChartsApp-ChartsAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CCF0489F48D0CB3B98D93AD8EA9EFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C91894AF34075F3E0E93CF12D2CF6CD /* Pods-ChartsAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartsAppTests/Pods-ChartsAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartsAppTests/Pods-ChartsAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E576EA9FB5783B25D9EA81564165C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B8F84207F64AAC6FB198A1C9FB81A9 /* ChartsLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChartsLib/ChartsLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChartsLib/ChartsLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChartsLib/ChartsLib.modulemap";
+				PRODUCT_MODULE_NAME = ChartsLib;
+				PRODUCT_NAME = ChartsLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B444576CCFE3D5E4C76D866375F629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B8F84207F64AAC6FB198A1C9FB81A9 /* ChartsLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ChartsLib";
+				IBSC_MODULE = ChartsLib;
+				INFOPLIST_FILE = "Target Support Files/ChartsLib/ResourceBundle-ChartsLib-ChartsLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = ChartsLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		93F2611F08733E264248BE3900D2989B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98AFD167E1F4F282BB4438637E815C3 /* ChartsLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChartsLib/ChartsLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChartsLib/ChartsLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChartsLib/ChartsLib.modulemap";
+				PRODUCT_MODULE_NAME = ChartsLib;
+				PRODUCT_NAME = ChartsLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3F6BB8E867005D5F24B47A95B246FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98AFD167E1F4F282BB4438637E815C3 /* ChartsLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ChartsLib";
+				IBSC_MODULE = ChartsLib;
+				INFOPLIST_FILE = "Target Support Files/ChartsLib/ResourceBundle-ChartsLib-ChartsLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = ChartsLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C6E526C2A6CD5DC70782B09018B8C7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456D8B9725BFD4451585CEEBB856EB17 /* Pods-ChartsAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartsAppTests/Pods-ChartsAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartsAppTests/Pods-ChartsAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF1ADFE7D3CE8A096E951A8373F03B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFDE9A00AF89928849AA81052A1A1AA /* Pods-ChartsApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartsApp/Pods-ChartsApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartsApp/Pods-ChartsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D5741BC6C0DEBC5EB0FB45A8DCF322 /* Build configuration list for PBXNativeTarget "Pods-ChartsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C4EA3E752DDB9C87D26ACC50093673 /* Debug */,
+				FF1ADFE7D3CE8A096E951A8373F03B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249169C51E115F97C59F061D04243571 /* Build configuration list for PBXNativeTarget "Pods-ChartsApp-ChartsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A58DE67D8B3F63640EA25F9B9DE3F7F /* Debug */,
+				12938ED97274EBFEFAC872D0D675E359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BDFDB0024D3D84958C3DF95D8760A8E /* Build configuration list for PBXNativeTarget "Pods-ChartsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF0489F48D0CB3B98D93AD8EA9EFD1 /* Debug */,
+				C6E526C2A6CD5DC70782B09018B8C7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1ACAFCB9836C0323FE98BD995825B0 /* Build configuration list for PBXNativeTarget "ChartsLib-ChartsLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F6BB8E867005D5F24B47A95B246FC1 /* Debug */,
+				85B444576CCFE3D5E4C76D866375F629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E39C39CDC8071B05581898853AFDC9 /* Build configuration list for PBXNativeTarget "ChartsLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F2611F08733E264248BE3900D2989B /* Debug */,
+				7E576EA9FB5783B25D9EA81564165C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
