@@ -1,0 +1,16 @@
+PODS:
+  - ChartsLib (0.0.1)
+
+DEPENDENCIES:
+  - ChartsLib (from `../ChartsLib`)
+
+EXTERNAL SOURCES:
+  ChartsLib:
+    :path: "../ChartsLib"
+
+SPEC CHECKSUMS:
+  ChartsLib: 43e7ad098cca41df3974b75373dd94f17bf37c6a
+
+PODFILE CHECKSUM: dcc7022ce1ef718a8d9cb939528fe54e65ee0cfc
+
+COCOAPODS: 1.9.3

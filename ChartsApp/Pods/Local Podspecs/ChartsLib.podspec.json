@@ -1,0 +1,25 @@
+{
+  "name": "ChartsLib",
+  "version": "0.0.1",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "summary": "A library for rendering Credit score of a user.",
+  "description": "A library for rendering Credit score of user. Also used to show the benchmarking done when evaluating a user's credit score",
+  "homepage": "http://github.com/ChartsLib",
+  "authors": {
+    "IN22915016": "gaurav.tiwari@tesco.com"
+  },
+  "source": {
+    "git": "https://github.com/TheCodedSelf/RWPickFlavor.git",
+    "tag": "#0.1.1"
+  },
+  "source_files": "ChartsLib/**/*.{swift}",
+  "resources": "ChartsLib/**/*.{xib}",
+  "resource_bundles": {
+    "ChartsLib": [
+      "ChartsLib/**/*.xib",
+      "ChartsLib/**/*.xcassets"
+    ]
+  }
+}

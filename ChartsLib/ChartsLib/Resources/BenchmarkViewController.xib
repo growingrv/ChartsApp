@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BenchmarkViewController" customModule="ChartsLib" customModuleProvider="target">
+            <connections>
+                <outlet property="benchmarkTableView" destination="rEz-f9-JRJ" id="Ub0-FW-TS8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIK-EE-t1w">
+                    <rect key="frame" x="0.0" y="44" width="2" height="400"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2" id="pz4-cs-1ZT"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" restorationIdentifier="BenchmarkTableViewHeader" id="haf-eN-apK">
+                    <rect key="frame" x="2" y="0.0" width="398" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Kl8-Ph-KzP">
+                            <rect key="frame" x="20" y="5.5" width="48" height="40.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" red="0.2666666667" green="0.62352941179999999" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where you stand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3kU-7C-6QO">
+                            <rect key="frame" x="76" y="0.0" width="286" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PO8-yR-5hL">
+                            <rect key="frame" x="366" y="5" width="26" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="26" id="DZf-cw-2Uf"/>
+                                <constraint firstAttribute="height" constant="30" id="xmr-Hu-2qd"/>
+                            </constraints>
+                            <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="3kU-7C-6QO" firstAttribute="leading" secondItem="Kl8-Ph-KzP" secondAttribute="trailing" constant="8" id="Dwb-Nw-43c"/>
+                        <constraint firstItem="PO8-yR-5hL" firstAttribute="leading" secondItem="3kU-7C-6QO" secondAttribute="trailing" constant="4" id="Kr7-ee-Jod"/>
+                        <constraint firstItem="PO8-yR-5hL" firstAttribute="top" secondItem="haf-eN-apK" secondAttribute="top" constant="5" id="OsE-6g-Hib"/>
+                        <constraint firstAttribute="trailing" secondItem="PO8-yR-5hL" secondAttribute="trailing" constant="6" id="Utg-oE-lTl"/>
+                        <constraint firstAttribute="bottom" secondItem="Kl8-Ph-KzP" secondAttribute="bottom" constant="4" id="Y5f-wE-iEB"/>
+                        <constraint firstItem="Kl8-Ph-KzP" firstAttribute="top" secondItem="haf-eN-apK" secondAttribute="top" constant="5" id="nkC-hO-Wib"/>
+                        <constraint firstItem="Kl8-Ph-KzP" firstAttribute="leading" secondItem="haf-eN-apK" secondAttribute="leading" constant="20" id="u6f-Qa-738"/>
+                        <constraint firstAttribute="bottom" secondItem="PO8-yR-5hL" secondAttribute="bottom" constant="15" id="wko-7b-o0J"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="40" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="rEz-f9-JRJ">
+                    <rect key="frame" x="2" y="58" width="400" height="342"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rEz-f9-JRJ" secondAttribute="trailing" constant="-2" id="3iU-ZW-oaM"/>
+                <constraint firstItem="dIK-EE-t1w" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="5l5-lT-pTG"/>
+                <constraint firstItem="rEz-f9-JRJ" firstAttribute="top" secondItem="haf-eN-apK" secondAttribute="bottom" constant="8" symbolic="YES" id="9Kp-7B-N02"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="dIK-EE-t1w" secondAttribute="top" id="D6a-C7-eRL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="rEz-f9-JRJ" secondAttribute="bottom" id="WF3-GF-J3s"/>
+                <constraint firstItem="rEz-f9-JRJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="2" id="YYA-JH-aTY"/>
+                <constraint firstItem="dIK-EE-t1w" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="buZ-Q0-E85"/>
+                <constraint firstItem="haf-eN-apK" firstAttribute="leading" secondItem="dIK-EE-t1w" secondAttribute="trailing" id="fMj-bM-6bR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="-96.428571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="person.crop.circle" catalog="system" width="64" height="62"/>
+    </resources>
+</document>

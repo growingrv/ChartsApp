@@ -1,0 +1,32 @@
+[
+  {
+    "benchmarkRangePercent": 19,
+    "benchmarkRangeMin": 825,
+    "benchmarkRangeMax": 900,
+    "benchmarkLevel": 1
+  },
+  {
+    "benchmarkRangePercent": 20,
+    "benchmarkRangeMin": 800,
+    "benchmarkRangeMax": 824,
+    "benchmarkLevel": 2
+  },
+  {
+    "benchmarkRangePercent": 21,
+    "benchmarkRangeMin": 775,
+    "benchmarkRangeMax": 799,
+    "benchmarkLevel": 3
+  },
+  {
+    "benchmarkRangePercent": 21,
+    "benchmarkRangeMin": 700,
+    "benchmarkRangeMax": 774,
+    "benchmarkLevel": 4
+  },
+  {
+    "benchmarkRangePercent": 19,
+    "benchmarkRangeMin": 300,
+    "benchmarkRangeMax": 699,
+    "benchmarkLevel": 5
+  }
+]
