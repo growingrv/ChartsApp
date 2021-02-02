@@ -48,3 +48,8 @@
 * UTs and UI testing is not done yet.
 * UI can be further improved to meet the requirements more closely. 
 * The podspec also needs to be improved. As of now, although it work fine, but the structure of pods is not perfect.
+
+## Screens
+
+![1](https://github.com/growingrv/ChartsApp/blob/feature/chartsDemo/ChartsApp/Screens/Screen2.png)
+![2](https://github.com/growingrv/ChartsApp/blob/feature/chartsDemo/ChartsApp/Screens/Screen1.png)
